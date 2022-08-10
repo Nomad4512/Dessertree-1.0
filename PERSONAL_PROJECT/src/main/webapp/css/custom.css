@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+* {
+	font-family: 'Nanum Gothic';
+	
+}
+.btn-primary{
+	background-color: #ff69b4;
+	border-color: pink;
+}
+.navbar {
+	top: 0;
+	width: 100%
+}
+h1 {
+	font-family: 'Hanna';
+}
+h3 {
+	font-family: 'Hanna';
+}
+p {
+	font-family: 'Nanum Gothic';
+}
+.login-form-link{
+	font-family: 'Nanum Gothic';
+}
+.vertical-alignment-helper{
+	display: table;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+.vertical-align-center{
+	display: table-cell;
+	vertical-align: middle;
+	pointer-events: none;
+}
+.modal-content{
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	pointer-events: all;
+}
+/* 전체 링크 */
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* 네이게이션 */
+.navbar-default { /* 내비 바 배경색상 */
+	background-color: pink;
+	border-color: white;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 3px;
+	border-radius: 0px;
+}
+.navbar-default .navbar-brand { /* 네비 제목색상 */
+	color: #ffffff;
+	font-family: 'Hanna';
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover
+.navbar-default .navbar-nav > .active > a:focus { /* 선택된 내비바 마우스 색상 */
+	color: #ffffff;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {/* 네비게이션 글자에 마우스 올렸을 때 */
+	color: white;
+	font-family: 'Noto Sans KR';
+}
+
+.navbar-default .navbar-nav > li >a:hover,
+.navbar-default .navbar-nav > li >a:focus { /* 네비게이션 글자에 마우스 올렸을 때 */
+	color: #dddddd;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{ /* 열린 드랍다운 마우스 색상 */
+	color: #808080;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {/* 토글에 마우스 올렸을 때 */
+	background-color: #808080;
+}
+.navbar-default .navbar-toggle:focus { /* 토글 아이콘 바 색상 */
+	background-color: #dddddd;
+}
+@media (max-width: 767px) { /* 작은화면일때 드랍다운 마우스올렸을 때 */
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #ffffff;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #eeeeee;
+	}
+}
+.d_btn{
+	display: inline-block;
+	padding-top: 0.5em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	
+	margin-top: 0.4em;
+	margin-right: 0.15em;
+	margin-bottom: 0.4em;
+	margin-left: 0.15em;
+	
+	border: 1px solid;
+}
+.d_form.mini {
+	width: 7em;
+}
+.d_form{
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	
+	margin-top: 0.2em;
+	margin-right: 0px;
+	margin-bottom: 0.2em;
+	margin-left: 0px;
+	
+	border: 1px solid;
+	vertical-align: middle;
+	
+	
+}
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
